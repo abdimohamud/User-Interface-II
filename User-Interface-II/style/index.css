@@ -1,0 +1,104 @@
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 50px
+}
+p {
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    font-size: x-large;
+}
+
+header{
+    background-color: #7CFC00    ;
+}
+body{
+    background-color: #8FBC8F    ;
+}
+header p{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+header .name{
+    display: flex;
+    justify-content: center;
+}
+header .links{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+
+}
+footer {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: #F0FFF0
+;
+
+}
+footer .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav a {
+    border: 1px solid rgb(212, 20, 20); 
+    color:black;
+    transition:1s; 
+    font-size: 25px;
+
+}
+
+
+.projecttext {
+    display: flex;
+    
+}
+
+.middlerow{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-left: 0;
+    
+}
+.projectimg {
+    display: flex;
+    flex-direction: row  ;
+ 
+
+}
+
+
+.wideimage img{
+    width: 100%;
+    height: 500px;
+    
+}
+.middlerow img{
+    width: 90%;
+}
