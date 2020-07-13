@@ -58,7 +58,7 @@ header .links{
 
 }
 
-nav a {
+.links nav a {
     border: 1px solid rgb(212, 20, 20); 
     color:black; 
     font-size: 50px;
@@ -75,6 +75,7 @@ nav a {
 
 .projecttext {
     display: flex;
+    width: 35%;
     
     
 }
@@ -98,16 +99,19 @@ nav a {
     height: 500px;
 }
 footer {
-    margin-bottom: 5%;
     margin-top: 5%;
-    background-color: #F0FFF0
-;
+    background-color: #FAF0E6;
+
 
 }
 footer .socials{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    letter-spacing:25px;
+    color:black; 
+    font-size: 50px;
+    font-family: 'Courier Prime', monospace;
 }
 /*new max width media queries*/
 @media (max-width: 800px) {
@@ -117,6 +121,10 @@ body{
 }
 h1{
     font-size: 75px;
+} 
+p{
+    font-size: 30px;
+    text-align: center;
 }
 .links nav{
     display: flex;
@@ -139,6 +147,9 @@ h1{
     width: 200px;
     height: 500px;
 }
+footer{
+    margin-top: 2.5%;
+}
 
 }
 
@@ -152,6 +163,10 @@ h1{
 }
 p{
     font-size: 20px;
+    text-align: center;
+}
+.links nav a{
+    font-size: 30px;
 }
 .middlerow{
     display: flex;
